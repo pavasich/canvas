@@ -1,0 +1,20 @@
+{
+  "name": "canvas",
+  "version": "1.0.1",
+  "description": "React component for rapidly creating dynamic visuals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavasich/canvas.git"
+  },
+  "keywords": [
+    "react",
+    "canvas",
+    "data visualization"
+  ],
+  "author": "Paul Vasich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavasich/canvas/issues"
+  },
+  "homepage": "https://github.com/pavasich/canvas#readme"
+}
