@@ -146,7 +146,7 @@ class _Canvas extends Component {
   }
 
   diamond() {
-    return ({ x, y, r }) => {
+    return ({ r = this.props.diamond_radius, x, y }) => {
       this._context.beginPath();
       this._context.moveTo(x, y - r);
       this._context.lineTo(x + r, y);
@@ -274,6 +274,7 @@ _Canvas.propTypes = {
 _Canvas.defaultProps = {
   id: '',
   lineWidth: 3,
+  diamond_radius: 4,
 };
 
 export default _Canvas;

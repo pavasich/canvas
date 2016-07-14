@@ -22,7 +22,6 @@ class Canvas extends Component {
     this.state = {
       flair: null,
     };
-    this.diamond_radius = this.props.diamond_radius || 4;
   }
 
   getCanvasElement() {
@@ -58,9 +57,7 @@ class Canvas extends Component {
     this.image.push(
       { op: 'diamond',
         args:
-        { x, y, color,
-          r: r || this.diamond_radius,
-        },
+        { x, y, r, color },
       });
   }
   line({ x1, y1, x2, y2, color }) {
